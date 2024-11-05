@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Haifa Biodata</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="css2/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css2/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="css2/responsive.css" rel="stylesheet" />
+  <style>
+    .hero_area {
+      background-image: url(./images/bg2.jpg );
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding-inline: 0;
+      min-height: 100vh;
+      height: auto;
+      display: block;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row-reverse;
+    }
+
+    .biodata-container {
+      width: 80%;
+      max-width: 600px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+    .biodata-container h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .biodata-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .biodata-table th,
+    .biodata-table td {
+      padding: 12px 15px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    .biodata-table th {
+      background-color: #3498db;
+      color: white;
+    }
+
+    .biodata-table td {
+      background-color: #f9f9f9;
+    }
+
+    .biodata-table tr:nth-child(even) td {
+      background-color: #eeeeee;
+    }
+
+    .image-container {
+      width: 50%;
+      /* Adjust width as needed */
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+      border: 5px solid #3498db;
+      /* Nice border color */
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      /* Add some shadow for effect */
+    }
+
+    .bubble-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      /* border-radius: 100%; */
+    }
+
+    .img-container {
+      display: grid;
+      gap: .5rem;
+      grid-template-columns: repeat(4, 1fr);
+      margin-bottom: 2rem;
+      background-color: white;
+      padding: .5rem 2rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="s-1"> </span>
+            <span class="s-2"> </span>
+            <span class="s-3"> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="about.html"> About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class=" slider_section ">
+      <div class="container" style="justify-content: center;flex-direction: row-reverse;">
+        <div class="tabs_inner">
+          <ul class="nav nav-tabs" id="myTab" role="tablist" style="margin-bottom: 60px;">
+            <li class="nav-item">
+              <a class="nav-link active show" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                aria-controls="home" aria-selected="true">My Experiences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+                aria-selected="false">My Education</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+
+            <div class="tab-pane fade active show" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <ul class="list">
+                <style>
+                  .tabs_inner .tab-content .tab-pane .list li .media .d-flex p {
+                    color: black;
+                  }
+
+                  .tabs_inner .tab-content .tab-pane .list li .media .media-body h4 {
+                    color: black;
+                  }
+
+                  .tabs_inner .tab-content .tab-pane .list li .media .media-body p {
+                    color: black;
+                  }
+
+                  .tabs_inner .tab-content .tab-pane .list .experienceFix {
+                    margin-bottom: 10px;
+                    position: relative;
+                    left: 30%;
+                  }
+
+                  .tabs_inner .tab-content .tab-pane .list .experienceFix span {
+                    height: 15px;
+                    width: 15px;
+                    border-radius: 50%;
+                    display: block;
+                    background: rgba(255, 255, 255, 0.2);
+                    position: absolute;
+                    left: 16%;
+                    top: 5px;
+                    transform: translateX(-50%);
+                  }
+                </style>
+
+                <div>
+                  <li class="experienceFix">
+                    <span></span>
+                    <div class="media">
+                      <div class="d-flex">
+                        <!-- <p>March 2017 to present</p> -->
+                      </div>
+                      <div class="media-body">
+                        <p>has experience & skills in playing musical instrument</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="experienceFix">
+                    <span></span>
+                    <div class="media" style="align-items: flex-end;">
+                      <div class="d-flex">
+                        <!-- <p>March 2017 to present</p> -->
+                      </div>
+                      <div class="media-body">
+                        <p>has skills and experience in giving speech and emceeing of events</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="experienceFix">
+                    <span></span>
+                    <div class="media" style="align-items: flex-end;">
+                      <div class="d-flex">
+                        <!-- <p>March 2017 to present</p> -->
+                      </div>
+                      <div class="media-body">
+                        <p>has experinece in sports such as boxing and other
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="experienceFix">
+                    <span></span>
+                    <div class="media" style="align-items: flex-end;">
+                      <div class="d-flex">
+                        <!-- <p>March 2017 to present</p> -->
+                      </div>
+                      <div class="media-body">
+                        <p>has skills and exprience in cooking competition
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="experienceFix">
+                    <span></span>
+                    <div class="media" style="align-items: flex-end;">
+                      <div class="d-flex">
+                        <!-- <p>March 2017 to present</p> -->
+                      </div>
+                      <div class="media-body">
+                        <p>has experience in participating in competition that related to technology.</p>
+                      </div>
+                    </div>
+                  </li>
+                </div>
+              </ul>
+            </div>
+
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <ul class="list" style="padding-bottom: 20px;">
+                <li>
+                  <span></span>
+                  <div class="media">
+                    <div class="d-flex">
+                      <p style="margin-right: 50px">2022 to Present</p>
+                    </div>
+                    <div class="media-body">
+                      <h4>Universiti Institut Teknologi MARA</h4>
+                      <p>Diploma in information and management</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <span></span>
+                  <div class="media">
+                    <div class="d-flex">
+                      <p>January 2017 to 2021</p>
+                    </div>
+                    <div class="media-body">
+                      <h4>Sekolah Menengah Kebangsaan</h4>
+                      <p>SMK Mahsuri</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="img-container">
+      <img class="bubble-img"
+        src="https://thumbs.dreamstime.com/b/cooking-competition-school-business-management-students-junior-iron-chef-chiang-rai-thailand-may-may-mae-fah-luang-71305699.jpg"
+        alt="cooking competition">
+      <img class="bubble-img"
+        src="https://i.ytimg.com/vi/GmIQkfmfVH0/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLAscdWT3GgpCmvp3_76ZkLtTP5rew"
+        alt="pengacara majlis">
+      <img class="bubble-img"
+        src="https://images.unsplash.com/photo-1716841670207-723e809bb00d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnJhc3MlMjBiYW5kfGVufDB8fDB8fHww"
+        alt="music">
+      <img class="bubble-img" src="https://thevocket.com/app/uploads/2016/03/bola-jaring-vocket.jpg" alt="bersukan">
+    </div>
+
+    <!-- end slider section -->
+    <div style="height:10%; width:100%; text-align: right;">
+      <a href="family.html"><button class="next-button"
+          style="margin-bottom: 2rem; margin-right: 2rem;">Next</button></a>
+    </div>
+  </div>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
